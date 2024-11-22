@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Perimeter <= 422.423\ngini = 0.5\nsamples = 900\nvalue = [450, 450]\nclass = Kecimen", fillcolor="#ffffff"] ;
+1 [label="gini = 0.276\nsamples = 490\nvalue = [81, 409]\nclass = Besni", fillcolor="#60b0ea"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.18\nsamples = 410\nvalue = [369, 41]\nclass = Kecimen", fillcolor="#e88f4f"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
